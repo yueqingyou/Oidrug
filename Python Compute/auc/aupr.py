@@ -23,7 +23,7 @@ def col_pic():
     for i in range(10):
         y_label = []
         y_pred = []
-        with open("pre_lab_" + str(i) + ".csv") as f:
+        with open("pre" + str(i) + ".csv") as f:
             f1 = csv.reader(f)
             for line in f1:
                 y_label.append(float(line[0]))
