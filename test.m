@@ -1,5 +1,5 @@
 FileData = load('origin.mat');
-writematrix('origin.csv', FileData.testScore);
+writematrix(FileData.testScore, 'origin.csv');
 
 FileData = load('pre.mat');
-writematrix('pre.csv', FileData.pred);
+writematrix(FileData.pred, 'pre.csv');
